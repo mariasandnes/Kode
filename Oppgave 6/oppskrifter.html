@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Oppskrifter</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .oppskrifter img {width: 40px; height: 40px;}
+    .oppskrifter tbody tr:nth-child(odd)  { background: blue; }
+    .oppskrifter tbody tr:nth-child(even) { background: purple; }
+    .oppskrifter tbody tr:hover {background: green; }
+    .oppskrifter .dish-name::before {content: "🍽️ "; }
+    .oppskrifter tbody td {color: orange; font-size: 25px; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Hjem</a>
+      <a href="registrering.html">Registrering</a>
+      <a href="oppskrifter.html">Oppskrifter</a>
+      <a href="bedrift.html">Bedrift</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Oppskrifter</h1>
+
+    <table class="oppskrifter">
+      <thead>
+        <tr><th></th><th>Navn</th><th>Ingredienser</th><th>Tid</th><th>Vansklighetsgrad</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="pasta.webp"></td>
+          <td><span class="dish-name">Pasta</span></td>
+          <td>Tomatoer, basilikum</td><td>20m</td><td>Easy</td>
+        </tr>
+        <tr>
+          <td><img src="salad.jpeg"></td>
+          <td><span class="dish-name">Salad</span></td>
+          <td>Salat, vinaigrette</td><td>10m</td><td>Easy</td>
+        </tr>
+        <tr>
+          <td><img src="curry.jpg"></td>
+          <td><span class="dish-name">Curry</span></td>
+          <td>Kylling, krydder</td><td>40m</td><td>Med</td>
+        </tr>
+        <tr>
+          <td><img src="soup.jpg"></td>
+          <td><span class="dish-name">Suppe</span></td>
+          <td>Grønnsaker, vann</td><td>25m</td><td>Easy</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Registrering</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    input[type="email"] {border: 2px solid blue;}
+    input:focus {background-color: pink; }
+    label[for="newsletter"]::after { content: " (Valgfritt)"; }
+    .inputs input:nth-child(even) { background: yellow; }
+    .inputs input:nth-child(odd)  { background: green; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Hjem</a>
+      <a href="registrering.html">Registrering</a>
+      <a href="oppskrifter.html">Oppskrifter</a>
+      <a href="bedrift.html">Bedrift</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Register</h1>
+
+    <form class="register">
+      <div class="inputs">
+        <input type="text" placeholder="Fornavn">
+        <input type="text" placeholder="Etternavn">
+        <input type="text" placeholder="Adresse">
+        <input type="text" placeholder="Postnummer">
+        <input type="text" placeholder="Poststed">
+        <input type="tel"  placeholder="Mobil">
+        <input type="email" placeholder="E-post">
+      </div>
+
+      <div class="newsletter">
+        <input id="newsletter" type="checkbox">
+        <label for="newsletter">Abonner på infobrev</label>
+      </div>
+    </form>
+  </main>
+</body>
+</html>

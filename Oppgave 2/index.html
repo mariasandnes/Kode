@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="no">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bestilling av flyreiser</title>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Firmanavn logo" width="80" height="80">
+    <h1>FlightTickets A/S</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Hjem</a></li>
+        <li><a href="#">Om oss</a></li>
+        <li><a href="#">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Bestill flyreise</h2>
+
+    <form>
+      <label>Fornavn
+        <input type="text" name="fornavn" placeholder="Ola" required>
+      </label><br>
+
+      <label>Etternavn
+        <input type="text" name="etternavn" placeholder="Nordmann" required>
+      </label><br>
+
+      <label>Adresse
+        <input type="text" name="adresse" placeholder="Gate 1" required>
+      </label><br>
+
+      <label>Postnummer
+        <input type="number" name="postnummer" placeholder="5000" required>
+      </label><br>
+
+      <label>E-post
+        <input type="email" name="epost" placeholder="navn@eksempel.no" required>
+      </label><br>
+
+      <label>Telefonnummer
+        <input type="number" name="telefon" placeholder="12345678" required>
+      </label><br><br>
+
+      <label>Fra
+        <select name="fra">
+          <option>Bergen (BGO)</option>
+          <option>Oslo (OSL)</option>
+          <option>Trondheim (TRD)</option>
+          <option>Stavanger (SVG)</option>
+        </select>
+      </label><br>
+
+      <label>Til
+        <select name="til">
+          <option>Oslo (OSL)</option>
+          <option>Bergen (BGO)</option>
+          <option>Trondheim (TRD)</option>
+          <option>Stavanger (SVG)</option>
+        </select>
+      </label><br><br>
+
+      <label>Utreisedato
+        <input type="date" name="utreise" required>
+      </label><br>
+
+      <label>Hjemreisedato
+        <input type="date" name="hjemreise" required>
+      </label><br><br>
+
+      Passasjertype:<br>
+      <label><input type="radio" name="type" value="barn" required> Barn</label>
+      <label><input type="radio" name="type" value="voksen"> Voksen</label>
+      <label><input type="radio" name="type" value="honnoer"> Honnør</label><br><br>
+
+      <label>Billettype
+        <select name="billett">
+          <option>Billig billett</option>
+          <option>Flex billett</option>
+          <option>Super flex</option>
+        </select>
+      </label><br><br>
+
+      <label>
+        <input type="checkbox" name="nyhetsbrev"> Ja takk, send meg tilbud/nyhetsbrev
+      </label><br><br>
+
+      <input type="submit" value="Send Bestilling">
+    </form>
+  </main>
+
+  <footer>
+    <p> 	...typisk innhold: når siden sist ble oppdatert, kontaktinformasjon, copyright informasjon </p>
+  </footer>

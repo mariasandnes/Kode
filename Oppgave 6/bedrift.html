@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Bedrift</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .team img {width: 120px; height: 120px;}
+    .employee {border: 1px solid black;}
+    .employee:hover {border-color: orange;}
+    .email a::after {content: " 📧";}
+    .team .employee:nth-child(odd)  { background: pink; }
+    .team .employee:nth-child(even) { background: lightgreen; }
+    #lead { background: green; border: 2px dotted purple;}
+    #lead .name { font-weight: 700; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Hjem</a>
+      <a href="registrering.html">Registrering</a>
+      <a href="oppskrifter.html">Oppskrifter</a>
+      <a href="bedrift.html">Bedrift</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Våre ansatte</h1>
+
+    <div class="team">
+      <div class="employee" id="lead">
+        <img src="ansatt1.jpg">
+        <p class="name">Bella Hansen</p>
+        <p class="email"><a href="bella@tullemail.com">bella.tullemail.com</a></p>
+      </div>
+
+      <div class="employee">
+        <img src="ansatt2.webp">
+        <p class="name"> Anne Olsen</p>
+        <p class="email"><a href="anna@tullemail.com">anna.tullemail.com</a></p>
+      </div>
+
+      <div class="employee">
+        <img src="ansatt3.webp">
+        <p class="name">Randi Johansen</p>
+        <p class="email"><a href="randi@tullemail.com">randi.tullemail.com</a></p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
