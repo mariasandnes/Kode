@@ -1,0 +1,91 @@
+:root {
+  --main-color: green;
+}
+section {
+  --section-color: pink;
+}
+h1, p {
+  color: var(--main-color);
+}
+section h2, section p {
+  background-color: var(--section-color);
+}
+@property --box-color {
+  syntax: '<color>';
+  inherits: false;
+  initial-value: lightgreen;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: var(--box-color);
+}
+@font-face {
+  font-family: "Bitcount Grid Single";
+  src: url("BitcountGridSingle-VariableFont_CRSV,ELSH,ELXP,slnt,wght.ttf");
+}
+
+@font-face {
+  font-family: "Iceberg";
+  src: url("Iceberg-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Macondo";
+  src: url("Macondo-Regular.ttf");
+}
+h1 {
+  font-family: "Bitcount Grid Single";
+}
+
+h2 {
+  font-family: "Iceberg";
+}
+
+p {
+  font-family: "Macondo";
+}
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.box {
+  background-color: lightblue;
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  .flexbox {
+    flex-direction: column;
+  }
+}
+.slide-in {
+  animation: slideRight 1s ease-out forwards;
+}
+
+@keyframes slideRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.spin {
+  animation: rotate360 2s linear infinite;
+}
+
+@keyframes rotate360 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+

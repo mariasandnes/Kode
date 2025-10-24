@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+   :root {
+  --main-color: lightblue;
+  --text-color: darkblue;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--main-color);
+  padding: 10px;
+}
+
+ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+section {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: var(--main-color);
+  padding: 10px;
+  width: 200px;
+  box-shadow: 0 0 10px gray;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card:hover {
+  box-shadow: 0 0 15px black;
+  transform: scale(1.03);
+}
+@media (max-width: 768px) {
+  section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pictures {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
+    </style>
+</head>
+<body>
+<nav>
+  <h1 class="logo">Et navn</h1>
+  <ul class="nav-links">
+    <li><a href="#">Hjem</a></li>
+    <li><a href="#">Om oss</a></li>
+    <li><a href="#">Kontakt</a></li>
+  </ul>
+</nav>
+<section>
+  <div class="card">
+    <img src="bilde1.jpg">
+    <h2>Card 1</h2>
+    <p>Short description for card 1.</p>
+  </div>
+
+  <div class="card">
+    <img src="bilde2.jpg">
+    <h2>Card 2</h2>
+    <p>Short description for card 2.</p>
+  </div>
+
+  <div class="card">
+    <img src="bilde3.jpg">
+    <h2>Card 3</h2>
+    <p>Short description for card 3.</p>
+  </div>
+</section>
+<main>
+  <div class="pictures">
+    <img src="Flag_of_Norway.svg">
+    <img src="Flag_of_Sweden.svg">
+    <img src="Flag_of_Denmark.svg">
+  </div>
+</main>
+
+</body>
+</html>

@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .flag {width: 1000px; height: 1000px; display: flex; justify-content: space-between;}
-        .flag img {width: 12% height: auto;}
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .flag {width: 1000px; height: 1000px; display: flex; justify-content: space-between; align-items: center; flex-direction:column;}
+    .flag img {width: 12%; height: auto;}
+    .group {display: flex; gap: 10px;}
+  </style>
 </head>
 <body>
-    <div class="flag">
-        <img src="Flag_of_Norway.svg">
-        <img src="Flag_of_Sweden.svg">
+   <div class="flag">
+    <img src="Flag_of_Norway.svg">
+    <div class="group">
+      <img src="Flag_of_Denmark.svg">
+      <img src="Flag_of_Sweden.svg">
     </div>
-    <div>
-        <img src="Flag_of_Sweden.svg">
-    </div>
+  </div>
 </body>
 </html>

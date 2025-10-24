@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Kalkis</title>
+<style>
+  body { font-family: Arial; }
+  .screen {
+    width: 300px;
+    height: 60px;
+    background:gray;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .calculator {
+    width: 300px;
+    padding: 15px;
+    background: palevioletred;
+    border-radius: 20px;
+  }
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+  }
+  button {
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background:green;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .equals {
+    background: black;
+    color: white;
+    grid-row: span 2;
+  }
+</style>
+</head>
+<body>
+
+<h1>Kalkis</h1>
+
+<div class="screen"></div>
+
+<div class="calculator">
+  <div class="buttons">
+    <button>+</button> <button>7</button> <button>8</button> <button>9</button>
+    <button>-</button> <button>4</button> <button>5</button> <button>6</button>
+    <button>x</button> <button>1</button> <button>2</button> <button>3</button>
+    <button>/</button> <button>0</button> <button>,</button> <button class="equals">=</button>
+    <button>(</button> <button>)</button> <button>C</button>
+  </div>
+</div>
+
+</body>
+</html>
