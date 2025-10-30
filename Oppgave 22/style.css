@@ -1,0 +1,39 @@
+body {
+  background-color: #eef6ff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  display: inline-block;
+}
+
+input {
+  padding: 8px;
+  margin: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#utskrift {
+  margin-top: 15px;
+  font-size: 1.1em;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <title>Oppgave 1 – Historiegenerator</title>
+  <link rel="stylesheet" href="Oppgave 1.css">
+  <script src="Oppgave 1.js" defer></script>
+</head>
+<body>
+
+  <div class="container">
+    <h2>📜 Velkommen til historiegeneratoren!</h2>
+    <p>Fyll inn litt informasjon, så lager vi en historie om deg!</p>
+
+    <label for="navn">Navn:</label><br>
+    <input type="text" id="navn" placeholder="Skriv inn navnet ditt"><br><br>
+
+    <label for="kjonn">Kjønn:</label><br>
+    <select id="kjonn">
+      <option value="jente">Jente</option>
+      <option value="gutt">Gutt</option>
+      <option value="kvinne">Kvinne</option>
+      <option value="mann">Mann</option>
+      <option value="gæmlis">Gæmlis</option>
+    </select><br><br>
+
+    <label for="fodselsaar">Fødselsår:</label><br>
+    <input type="number" id="fodselsaar" placeholder="f.eks. 1999"><br><br>
+
+    <button onclick="lagHistorie()">Lag historie</button>
+
+    <p id="resultat"></p>
+  </div>
+
+</body>
+</html>

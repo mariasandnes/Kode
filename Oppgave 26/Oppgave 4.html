@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <title>Oppgave 4 – Dynamisk styling</title>
+  <link rel="stylesheet" href="Oppgave 4.css">
+  <script src="Oppgave 4.js" defer></script>
+</head>
+<body>
+
+  <h1 id="tittel">Min magiske side ✨</h1>
+  <h2 id="undertittel">Denne skal styles med JS</h2>
+
+  <p id="p1">Dette er en paragraf som kan bli uthevet.</p>
+  <p id="p2">Dette er en annen paragraf som kan få advarsel-stil.</p>
+  <p class="vanlig">Dette er bare en vanlig tekst.</p>
+
+  <div id="boks">Jeg er en div-boks som kan få skygge.</div>
+
+  <hr>
+
+  <h3>Trykk på knappene for å style elementene:</h3>
+
+  <button onclick="gjørStor()">Gjør tittel STOR</button>
+  <button onclick="markerTekst()">Marker p1</button>
+  <button onclick="visAdvarsel()">Gjør p2 til advarsel</button>
+  <button onclick="leggSkygge()">Legg skygge på boksen</button>
+  <button onclick="resetAlt()">Fjern all styling</button>
+
+</body>
+</html>

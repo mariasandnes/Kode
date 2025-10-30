@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <title>Oppgave 6 – Karakterkalkulator</title>
+  <link rel="stylesheet" href="Oppgave 6.css">
+  <script src="Oppgave 6.js" defer></script>
+</head>
+<body>
+
+  <div class="container">
+    <h1>🎓 Karakterkalkulator</h1>
+    <p>Skriv inn poeng (1–6) for hver innlevering:</p>
+
+    <input type="number" id="oppg1" min="1" max="6" placeholder="Oppgave 1">
+    <input type="number" id="oppg2" min="1" max="6" placeholder="Oppgave 2">
+    <input type="number" id="oppg3" min="1" max="6" placeholder="Oppgave 3">
+    <input type="number" id="oppg4" min="1" max="6" placeholder="Oppgave 4">
+    <input type="number" id="oppg5" min="1" max="6" placeholder="Oppgave 5">
+    <br><br>
+
+    <button onclick="beregnKarakter()">Beregn karakter</button>
+
+    <p id="resultat"></p>
+  </div>
+
+</body>
+</html>

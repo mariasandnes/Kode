@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <title>Oppgave 3 – Fergetur for hele familien</title>
+  <link rel="stylesheet" href="Oppgave 3.css">
+  <script src="Oppgave 3.js" defer></script>
+</head>
+<body>
+
+  <div class="container">
+    <h1>⛴️ Bestill fergebilletter</h1>
+    <p>Fyll inn hvor mange som skal reise:</p>
+
+    <label for="voksne">Antall voksne:</label><br>
+    <input type="number" id="voksne" placeholder="f.eks. 2" min="0"><br><br>
+
+    <label for="barn">Antall barn:</label><br>
+    <input type="number" id="barn" placeholder="f.eks. 1" min="0"><br><br>
+
+    <label for="honnor">Antall honnør:</label><br>
+    <input type="number" id="honnor" placeholder="f.eks. 1" min="0"><br><br>
+
+    <p>Reisetype:</p>
+    <label>
+      <input type="radio" name="reise" value="enkel" checked> Enkeltreise
+    </label><br>
+    <label>
+      <input type="radio" name="reise" value="turretur"> Tur / retur (25% rabatt)
+    </label><br><br>
+
+    <button onclick="beregnPris()">Bestill billetter</button>
+
+    <div id="utskrift"></div>
+  </div>
+
+</body>
+</html>

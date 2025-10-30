@@ -1,0 +1,56 @@
+body {
+  background: #f5f7fa;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.container {
+  background: white;
+  display: inline-block;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 120px;
+  text-align: center;
+}
+
+button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005ec4;
+}
+
+#utskrift {
+  margin-top: 20px;
+  font-size: 1.1em;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.win {
+  background-color: red;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.loss {
+  background-color: green;
+  color: orange;
+  font-size: 1.1em;
+}

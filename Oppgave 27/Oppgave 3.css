@@ -1,0 +1,49 @@
+body {
+  background: #f5f7fa;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.container {
+  background: white;
+  display: inline-block;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+input[type="number"] {
+  width: 200px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005ec4;
+}
+
+#utskrift {
+  margin-top: 20px;
+  font-size: 1.05em;
+}
+
+.errorStyle {
+  background: #f44336;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+}

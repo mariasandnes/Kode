@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <title>Oppgave 5 – Handleliste</title>
+  <link rel="stylesheet" href="Oppgave 5.css">
+  <script src="Oppgave 5.js" defer></script>
+</head>
+<body>
+
+  <div class="container">
+    <h1>🛒 Handleliste</h1>
+    <p>Huk av det du vil kjøpe:</p>
+
+    <label>
+      <input type="checkbox" name="vare" value="Melk"> Melk
+    </label><br>
+    <label>
+      <input type="checkbox" name="vare" value="Egg"> Egg
+    </label><br>
+    <label>
+      <input type="checkbox" name="vare" value="Brød"> Brød
+    </label><br>
+    <label>
+      <input type="checkbox" name="vare" value="Smør"> Smør
+    </label><br><br>
+
+    <button onclick="visHandleliste()">Vis handleliste</button>
+
+    <p id="resultat"></p>
+  </div>
+
+</body>
+</html>

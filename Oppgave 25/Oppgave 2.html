@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <title>Oppgave 2 – Kalkulator</title>
+  <link rel="stylesheet" href="Oppgave 2.css">
+  <script src="Oppgave 2.js" defer></script>
+</head>
+<body>
+
+  <div class="container">
+    <h1>🧮 Enkel Kalkulator</h1>
+
+    <input type="number" id="tall1" placeholder="Første tall">
+    <select id="operator">
+      <option value="+">+</option>
+      <option value="-">−</option>
+      <option value="*">×</option>
+      <option value="/">÷</option>
+    </select>
+    <input type="number" id="tall2" placeholder="Andre tall">
+    <br><br>
+
+    <button onclick="kalkuler()">Beregn</button>
+
+    <p id="resultat"></p>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <title>Oppgave 4 – Pizza-bestilling</title>
+  <link rel="stylesheet" href="Oppgave 4.css">
+  <script src="Oppgave 4.js" defer></script>
+</head>
+<body>
+
+  <div class="container">
+    <h1>🍕 Bestill pizza</h1>
+    <p>Velg størrelse og fyll:</p>
+
+    <h3>Størrelse</h3>
+    <label>
+      <input type="radio" name="storrelse" value="stor" checked> Stor
+    </label><br>
+    <label>
+      <input type="radio" name="storrelse" value="liten"> Liten
+    </label>
+
+    <h3>Fyll</h3>
+    <label>
+      <input type="radio" name="fyll" value="kylling" checked> Kylling
+    </label><br>
+    <label>
+      <input type="radio" name="fyll" value="vegetar"> Vegetar
+    </label>
+
+    <br><br>
+    <button onclick="bestillPizza()">Bestill pizza</button>
+
+    <p id="utskrift"></p>
+  </div>
+
+</body>
+</html>

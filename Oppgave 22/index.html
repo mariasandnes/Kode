@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <title>Oppgave 2 – Epost-generator versjon 2</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <div class="container">
+    <h1>📧 E-postgenerator 2.0</h1>
+    <p>Skriv inn navnene dine for å generere en e-postadresse automatisk.</p>
+
+    <input type="text" id="fornavn" placeholder="Fornavn">
+    <input type="text" id="mellomnavn" placeholder="Mellomnavn (valgfritt)">
+    <input type="text" id="etternavn" placeholder="Etternavn">
+    <br><br>
+
+    <button onclick="lagEpost()">Lag e-post</button>
+
+    <p id="utskrift"></p>
+  </div>
+
+</body>
+</html>

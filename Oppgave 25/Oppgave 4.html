@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <title>Oppgave 4 – RGB Slider</title>
+  <link rel="stylesheet" href="Oppgave 4.css">
+  <script src="Oppgave 4.js" defer></script>
+</head>
+<body>
+
+  <div class="container">
+    <h1>🎨 Lag din egen bakgrunnsfarge</h1>
+
+    <label for="r">Rød:</label>
+    <input type="range" id="r" min="0" max="255" value="120" oninput="visVerdi('r')">
+    <span id="r-verdi">120</span>
+    <br><br>
+
+    <label for="g">Grønn:</label>
+    <input type="range" id="g" min="0" max="255" value="200" oninput="visVerdi('g')">
+    <span id="g-verdi">200</span>
+    <br><br>
+
+    <label for="b">Blå:</label>
+    <input type="range" id="b" min="0" max="255" value="255" oninput="visVerdi('b')">
+    <span id="b-verdi">255</span>
+    <br><br>
+
+    <button onclick="byttFarge()">Bytt farge</button>
+
+    <p id="preview"></p>
+  </div>
+
+</body>
+</html>

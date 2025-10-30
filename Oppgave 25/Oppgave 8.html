@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <title>Oppgave 8 – Valutaomregner</title>
+  <link rel="stylesheet" href="Oppgave 8.css">
+  <script src="Oppgave 8.js" defer></script>
+</head>
+<body>
+
+  <div class="container">
+    <h1>💱 Enkel valutaomregner</h1>
+    <p>Skriv inn beløp i NOK og velg valuta:</p>
+
+    <input type="number" id="belop" placeholder="Beløp i NOK">
+    <select id="valuta">
+      <option value="USD">USD (dollar)</option>
+      <option value="EUR">EUR (euro)</option>
+      <option value="NOK">NOK (norske kroner)</option>
+    </select>
+    <br><br>
+
+    <button onclick="konverter()">Konverter</button>
+
+    <p id="resultat"></p>
+  </div>
+
+</body>
+</html>
