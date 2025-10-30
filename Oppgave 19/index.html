@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Min side</h1>
+
+<p>Dette er en paragraf som består av nøyaktig femten ord for denne oppgaven i HTML nå.</p>
+
+<input type="text" id="tekst">
+<br><br>
+
+<textarea id="tekstfelt"></textarea>
+<br><br>
+
+<select id="meny">
+  <option>Valg 1</option>
+  <option>Valg 2</option>
+  <option>Valg 3</option>
+  <option>Valg 4</option>
+</select>
+<br><br>
+
+<input type="color" id="farge">
+<br><br>
+
+<input type="date" id="dato">
+<br><br>
+
+<button onclick="hentVerdier()">Trykk meg</button>
+
+<script>
+function hentVerdier() {
+  let tekst = document.getElementById("tekst").value;
+  let tekstfelt = document.getElementById("tekstfelt").value;
+  let meny = document.getElementById("meny").value;
+  let farge = document.getElementById("farge").value;
+  let dato = document.getElementById("dato").value;
+
+  console.log("Tekst:", tekst);
+  console.log("Tekstfelt:", tekstfelt);
+  console.log("Valgt meny:", meny);
+  console.log("Farge:", farge);
+  console.log("Dato:", dato);
+}
+</script>
+
+</body>
+</html>
