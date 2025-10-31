@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <title>Oppgave 4 – BMI-kalkulator</title>
+  <link rel="stylesheet" href="Oppgave 4.css">
+  <script src="Oppgave 4.js" defer></script>
+</head>
+<body>
+
+  <div class="container">
+    <h1>BMI-kalkulator</h1>
+    <p>Skriv inn vekten din (kg) og høyden din (meter):</p>
+
+    <label for="vekt">Vekt (kg):</label><br>
+    <input type="number" id="vekt" step="0.1" placeholder="f.eks. 68.5"><br><br>
+
+    <label for="hoyde">Høyde (m):</label><br>
+    <input type="number" id="hoyde" step="0.01" placeholder="f.eks. 1.75"><br><br>
+
+    <button onclick="beregnBMI()">Beregn BMI</button>
+
+    <p id="resultat"></p>
+  </div>
+
+</body>
+</html>

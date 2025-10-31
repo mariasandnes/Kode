@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Oppgave 1.css">
+    <script src="Oppgave 1.js" defer></script>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Tippeprogram</h1>
+    <p>Skriv inn tipping from kampen:</p>
+    <p><strong>H</strong> = Hjemme, <strong>U</strong> = Uavgjort, <strong>B</strong> = Borte</p>
+
+    <input type="text" id="tippetegn" maxlength="1" placeholder="H/U/B">
+    <button onclick="sjekkTips()">Sjekk resultat</button>
+
+    <p id="resultat"></p>
+
+</div>
+
+</body>
+</html>
