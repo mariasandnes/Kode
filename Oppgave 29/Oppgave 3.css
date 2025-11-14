@@ -1,0 +1,15 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+
+#boksContainer {
+    margin-top: 20px;
+}
+
+.fargeboks {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border: 1px solid #aaa;
+}
