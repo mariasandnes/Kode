@@ -1,0 +1,22 @@
+body {
+    font-family: cursive;
+    margin: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+#alderSvar {
+    margin-top: 15px;
+    font-weight: bold;
+}

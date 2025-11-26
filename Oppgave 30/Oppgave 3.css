@@ -1,0 +1,41 @@
+body {
+    font-family: fantasy;
+    margin: 20px;
+}
+
+h1 {
+    color:#4a3f7a;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    margin-top: 5px;
+    padding: 6px;
+    width: 200px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 8px 12px;
+    border: none;
+    background-color: #6e5acb;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5b49b2;
+}
+
+#rektArealSvar {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #2c1f55;
+}

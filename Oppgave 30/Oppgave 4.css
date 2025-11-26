@@ -1,0 +1,36 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    background-color: #f0f7ff;
+}
+
+p {
+    color: #19578a;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    margin-top: 5px;
+    padding: 8px 12px;
+    border: none;
+    background-color: #3584c6;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #276a9c;
+}
+
+#sirkelSvar {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #0d3d66;
+}
