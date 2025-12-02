@@ -1,11 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Oppgave 7 – Initialer</title>
     <link rel="stylesheet" href="Oppgave 7.css">
-    <script src="Oppgave 7.js" defer></script>
 </head>
 <body>
     <h1>Skriv inn fornavn, mellomnavn og etternavn for å få initialer.</h1>
@@ -16,6 +14,13 @@
     <label for="mellomnavn">Mellomnavn:</label>
     <input type="text" id="mellomnavn">
 
-    <label for="etternavn">Etternavn</label>
+    <label for="etternavn">Etternavn:</label>
+    <input type="text" id="etternavn">
+
+    <button onclick="visInitialer()">Vis initialer</button>
+
+    <div id="navnSvar"></div>
+
+    <script src="Oppgave 7.js"></script>
 </body>
 </html>
