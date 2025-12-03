@@ -1,11 +1,11 @@
 body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 20px;
-    background-color: #fff0f7;
+    background-color: #ffeef5;
 }
 
 h1 {
-    color: #b8326f;
+    color: #b74173;
 }
 
 label {
@@ -17,8 +17,8 @@ label {
 input {
     margin-top: 5px;
     padding: 6px;
-    width: 220px;
-    border: 1px solid #d88bad;
+    width: 250px;
+    border: 1px solid #d799b7;
     border-radius: 5px;
 }
 
@@ -26,7 +26,7 @@ button {
     margin-top: 15px;
     padding: 8px 12px;
     border: none;
-    background-color: #cc4a8b;
+    background-color: #b74173;
     color: white;
     font-weight: bold;
     border-radius: 5px;
@@ -34,11 +34,10 @@ button {
 }
 
 button:hover {
-    background-color: #ae3f77;
+    background-color: #93405f;
 }
 
-#navnSavr {
-    margin-top: 15px;
-    font-weight: bold;
-    color: #802953;
+#resultat {
+    margin-top: 20px;
+    line-height: 1.4;
 }
