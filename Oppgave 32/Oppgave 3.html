@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <title>Oppgave 3 – Spillere i A-stallen</title>
+    <link rel="stylesheet" href="Oppgave 3.css">
+</head>
+<body>
+
+    <h1>Spillere i A-stallen</h1>
+    <p>Trykk på en knapp for å vise informasjon om spillerne.</p>
+
+    <h2>a) Alle spillere</h2>
+    <button onclick="visAlleSpillere()">Vis alle spillere</button>
+    <div id="alleSpillere"></div>
+
+    <h2>b) Angrepsspillere</h2>
+    <button onclick="visAngrepsspillere()">Vis angrepsspillere</button>
+    <div id="angrep"></div>
+
+    <h2>c) Velg posisjon</h2>
+    <p>Velg posisjon og trykk på knappen:</p>
+
+    <select id="posisjonValg">
+        <option value="Keeper">Keepere</option>
+        <option value="Forsvar">Forsvarsspillere</option>
+        <option value="Midtbane">Midtbanespillere</option>
+        <option value="Angrep">Angrepsspillere</option>
+    </select>
+
+    <button onclick="visEtterPosisjon()">Vis spillere på valgt posisjon</button>
+
+    <div id="posisjonResultat" class="spiller-container"></div>
+
+    <script src="Oppgave 3.js"></script>
+</body>
+</html>
