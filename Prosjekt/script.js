@@ -31,6 +31,8 @@ themeBtns.forEach((btn) => {
   });
 });
 
+// ===================== LOGIN: SAVE NAME =====================
+
 const loginForm = document.getElementById("name-form");
 
 if (loginForm) {
@@ -41,6 +43,8 @@ if (loginForm) {
     window.location.href = "index.html";
   });
 }
+
+// ===================== NAVBAR GREETING =====================
 
 const greeting = document.getElementById("user-greeting");
 
