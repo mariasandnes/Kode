@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Baner 2025</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html">
+        <img class="nav-logo" src="F1 simple logo.png" alt="F1 logo">
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Hjem</a></li>
+        <li><a href="teams.html">Lag</a></li>
+        <li><a href="drivers.html">Førere</a></li>
+        <li><a href="rankings.html">Resultater</a></li>
+        <li><a href="tracks.html">Baner</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <div id="user-greeting" class="user-greeting">Hallo Guest</div>
+        <button class="theme-toggle-btn" type="button" aria-label="Toggle theme">☼</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page-content">
+    <h1 class="heading">Baner <span class="year-arial">2025</span></h1>
+
+    <p class="tracks-note">Baner hentes fra API.</p>
+
+    <div id="tracks-status" class="tracks-status"></div>
+
+    <section id="tracks-grid" class="tracks-grid">
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
